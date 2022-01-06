@@ -4,10 +4,18 @@ body {
     padding: 0;
 }
 
+.margin-box {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5%;
+
+}
+
 .box {
     width: 80%;
     margin: auto;
     margin-bottom: 1.5%;
+
     display: flex;
 }
 
@@ -50,7 +58,7 @@ body {
 }
 
 .explore-btn {
-    background: linear-gradient(183deg, #ff0000e8, orange);
+    background: linear-gradient(183deg, #ff0000e8, rgb(232, 89, 22));
     color: white;
     text-decoration: none;
     padding: 2% 6%;
@@ -101,7 +109,7 @@ body {
     width: 30%;
     height: 307px;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 50px;
     padding: 1%;
 }
 
@@ -167,4 +175,96 @@ body {
     left: 5%;
     top: 37%;
     z-index: -1;
+}
+
+.cm-shape {
+    width: 15%;
+    position: absolute;
+    right: 8%;
+    top: 69%;
+    z-index: -1;
+}
+
+.cm-title {
+    margin-top: 17%;
+}
+
+.cm-focus {
+    font-size: 33px;
+}
+
+.cm-focus-text {
+    margin-top: -3%;
+    width: 80%;
+}
+
+.experience-title {
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+}
+
+.experience-title h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.experience-title h1 strong {
+    color: #ffad5a;
+}
+
+.experience-card {
+    width: 45%;
+    height: 250px;
+    padding: 1%;
+    border-radius: 5px;
+    border-right: 5px solid #FF5959;
+    box-shadow: 0px 0px 3px 0px;
+    position: relative;
+}
+
+.experience-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.experience-card h1 {
+    font-size: 30px;
+    margin-left: 3%;
+    color: #000000d9;
+    font-weight: 400;
+}
+
+.experience-card h3 {
+    margin-top: -3%;
+    margin-left: 3%;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FF5959;
+}
+
+.experience-card p {
+    width: 93%;
+    margin-left: 3%;
+    margin-top: 6%;
+}
+
+footer {
+    margin-top: 10%;
+    background: #0B0D17;
+    padding: 2%;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+}
+
+footer h1 strong {
+    color: #FF5959;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff99;
 }
